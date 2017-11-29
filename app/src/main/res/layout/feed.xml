@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/background">
+
+
+    <EditText
+        android:background="@drawable/talk"
+        android:id="@+id/want"
+        android:hint="请写阁下的联系方式和发现的Bug，开发者会进行修复谢谢合作。"
+        android:layout_marginTop="230dp"
+        android:textSize="15sp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/tto"
+        android:background="@drawable/to"
+        android:layout_width="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/want"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/look"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:background="@drawable/look"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/l"
+        android:text="查看已发现Bug"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/look"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

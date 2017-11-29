@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.luosnn.tv.Main">
+<RelativeLayout
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:background="#668B8B"
+    android:padding="6dp"
+    android:layout_height="46dp"
+    >
+
+  <Button
+      android:id="@+id/back"
+      android:background="@drawable/back"
+      android:layout_width="35dp"
+      android:layout_alignParentLeft="true"
+      android:layout_height="35dp" />
+  <Button
+      android:id="@+id/have"
+      android:background="@drawable/have"
+      android:layout_width="35dp"
+      android:layout_centerHorizontal="true"
+      android:layout_height="35dp" />
+
+
+  <Button
+      android:id="@+id/feed"
+      android:background="@drawable/feed"
+      android:layout_alignParentRight="true"
+      android:layout_width="35dp"
+      android:layout_height="35dp" />
+</RelativeLayout>
+  <ListView
+      android:id="@+id/lv"
+      android:layout_below="@id/title"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+  </ListView>
+
+</RelativeLayout>
